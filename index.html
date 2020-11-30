@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <section>
+        <div class="left-side-nav">
+            <div>
+                <a class="hamburger" href="#" onclick="myFunction()";  return false;>
+                    <img src="images/menu.svg" alt="">    
+                </a>
+                <h1>Aim's Blog</h1>
+            </div>
+            <div id="side-div">                
+                <img src="./images/pix2.png" style=" width:100px; height:100px; border-radius: 50%;">
+                <p style="color:#fff; text-align: center;" >Hi, my name is Abdullah Isa-Bello Marufat(AiM). I  am  a  FrontEnd  Developer.  <a href="./html/about.html" style="color:#fff">Find out more about me</a></p>
+                <div class="no-pad">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/?lang=en">
+                                <img class ="social-icon" src="images/twitter.png">
+                            </a>
+                            <a href="https://www.linkedin.com">
+                                <img class ="social-icon" src="images/linkedin.png" >
+                            </a>
+                            <a href="https://www.reddit.com">
+                                <img class ="social-icon" src="images/reddit.png">
+                            </a>
+                            <a href="https://emojipedia.org/smiling-face-with-smiling-eyes">
+                                <img class ="social-icon" src="images/happy.png" >
+                            </a>
+                            <a href="https://www.dropbox.com">
+                                <img class ="social-icon" src="images/dropbox.png">
+                            </a>                                                                                                       
+                        </li>
+                    </ul>                                                           
+                </div>
+                <hr class="new">
+                <ul>
+                    <li><div><img src="images/home.png" style="width:20px; height:20px; "></div>
+                        <div><p style="margin-left: 5px;"><a href="index.html" style="color:rgb(8, 27, 8)"  ><b>Blog Home</b></a></p></div>
+                    </li>
+                    <li><div><img src="images/blogtag.png" style="width:20px; height:20px; "></div>
+                        <div><p style="margin-left: 5px;"><a href="./html/blog.html" style="color:#fff"><b>Blog Post</b></a></p></div>
+                    </li>
+                    <li><div><img src="images/user.png" style="width:20px; height:20px; "></div>
+                        <div><p style="margin-left: 5px;"><a href="html/about.html"style="color:#fff"><b>About Me</b></a></p></div>
+                    </li>
+                </ul>
+                <botton class="button" style="background-color: #006633">Get in Touch</botton>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="top-div">
+                <h1>DevBlog - A Blog Template Made for Developers</h1>
+                <p style="text-align: center;">Welcome to my blog. Subscribe and get my latest blog post in your inbox</p>
+                <span><input type="email" placeholder="Enter email" style="padding:1%; width:30%">
+                    <button class="button">Subscribe</button>
+                </span>
+            </div>
+            <div class="content-div">
+                <ul>
+                    <li>
+                        <div><img src="./images/laptop1.jpg" style="width:100px; height:140px; "></div>
+                        <div style="padding-top: 0%; padding-left: 10px; padding-bottom: 0%;"> 
+                            <h3>Why Every Developer Should Have A Blog</h3>
+                            <p style="font-size: smaller;">Published 2 days ago • 5 min reads • 8 comments </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, nesciunt? ipsum dolor, sit amet consectetur adipisicing elit. Quo, consequatur?, ipsum dolor sit amet consectetur adipisicing elit. Qui aliquam voluptatem dicta...</p>
+                            <a href="html/blog.html">Read more→ </a>
+                        </div>
+                    </li><br>
+                    <li>
+                        <div><img src="./images/laptop2.jpg" style="width:100px; height:140px; ;"></div>
+                        <div style="padding-top: 0%; padding-left: 10px;"> 
+                            <h3>A Guide to Becoming a Full-Stack Developer</h3>
+                            <p style="font-size: smaller;">Published 3 months ago • 3 min read • 26 comments </p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor, sit amet consectetur adipisicing elit. Quo, consequatur?, ipsum dolor sit amet consectetur adipisicing elit. Qui aliquam voluptatem dicta...</p>
+                            <a href="html/blog.html">Read more→ </a>
+                        </div>
+                    </li><br>
+                    <li>
+                        <div><img src="images/js.png" style="width:100px; height:140px; "></div>
+                        <div style="padding-top: 0%; padding-left: 10px;"> 
+                            <h3>High Performance JavaScript</h3>
+                            <p style="font-size: smaller;">Published 1 month ago • 12 min read  • 8 comments </p>
+                            <p>Qui aliquam voluptatem dicta. Possimus commodi saepe doloremque dignissimos modi neque totam Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, vitae..</p>
+                            <a href="html/blog.html">Read more→ </a>
+                        </div>
+                    </li><br>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("side-div");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+</body>
+</html>

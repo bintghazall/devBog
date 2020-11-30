@@ -1,0 +1,164 @@
+
+*{  margin:0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+section{
+    display:flex;
+    padding:0;
+    margin: 0;  
+}
+p{
+    text-align: justify;
+}
+.left-side-nav{
+    width:20%;
+    background:#0ca559;
+    margin-top:0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    color:white;    
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    overflow: wrap;
+}
+.hamburger{
+    position: absolute;
+    padding:0;
+    margin:0;
+    left:0;
+    display:flex;
+    visibility: hidden;
+    color:white;
+}
+.main-content{
+    width:80%;
+    background:#fff;
+    margin:0%;
+    padding: 0%;
+    
+}
+#side-div{
+    padding:10px;
+    margin:10px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top-div{
+    width:100%;
+    text-align:center;
+    background: #e1e1ee;
+    padding:50px;
+    padding-left: 0px;
+    margin:0px
+}
+.content-div{
+    padding:50px;
+    margin:0;
+    text-align:left;
+}
+.blog-div{
+    padding-top:40px;
+    margin-top: 0%;
+    margin-left:15%;
+    margin-right: 15%;
+    padding-bottom: 0px;
+}
+.button{
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #043b06;    
+}
+li{
+    display:flex;
+    justify-content: center;
+}
+a{
+    color: #33FF99;
+}
+.no-pad{
+    margin:0;
+    padding:0;
+}
+.blog-image{
+    width: 100%;
+    height:250px;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+}
+#image-text{
+    width:40%;
+    padding-top:10%;
+    padding-left: 20%;
+    position: absolute;
+    top:7%;
+    left:15%;
+    box-sizing: border-box;
+}
+.social-icon{
+    width:10px; 
+    height:10px; 
+    border-radius: 50%; 
+    margin:10px;
+    background-color: #fff; 
+    padding: 10% ;
+}
+hr.new{
+    border: 1px solid #0066331c;
+}
+@media(max-width:480px){
+    section{
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .left-side-nav{
+        width:100%;
+        position: relative;
+        
+    }
+    .left-side-nav:first-child{
+        display: block !important
+    }
+    
+    .main-content{
+        width:100%;
+        
+    }
+    #image-text{
+        width: 55%;
+        top:90%;
+        left:0%;
+        padding-left: 10%;
+    }
+    .blog-div{
+        margin-top: 0%;
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    .hamburger{
+        visibility: visible;
+    }
+    #side-div{
+        display:none
+    }
+}
